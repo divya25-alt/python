@@ -67,6 +67,16 @@ r = n % 10
 rev = rer * 10 + r
 n = n // 10
 print("revese number: " , rev)
+11:Whether a Number is a Prime or Not
+count = 0
+n = int(input("Enter a number"))
+for i in range(1,n+1):
+if n % i == 0
+count+=1
+if count == 2:
+print("prime")
+else:
+print("not prime")
 
 
 
