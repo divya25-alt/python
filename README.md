@@ -49,8 +49,25 @@ else:
 print(max)
 8:Whether a Year is a Leap Year or Not
 year = 4000
-if year%400=0
+if year%400==0:
 print(leap year)
 else:
 print(not leap year)
+9:Find the sum of the Digits of a Number
+num = input("Enter a num")
+sum = 0
+for i in num:
+sum = sum + int(i)
+print(sum)
+10:Reverse of a Number in Python 
+num = int(input("Enter a num")
+rev = 0
+while(n>0):
+r = n % 10
+rev = rer * 10 + r
+n = n // 10
+print("revese number: " , rev)
+
+
+
 
