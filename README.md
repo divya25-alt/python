@@ -77,6 +77,19 @@ if count == 2:
 print("prime")
 else:
 print("not prime")
+12:Perfect Number in Python
+num = int(input("Enter a num")
+sum=0
+for i in range(1,(n/2)+1):
+if(n%i==0)
+sum=sum+i
+if(sum==num)
+print("perfect number")
+else:
+print("not perfect number")
+14:
+
+
 
 
 
