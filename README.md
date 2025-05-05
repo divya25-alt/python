@@ -206,6 +206,24 @@ ifstr(square).endswith(str(n))
 print("Automorphic number")
 else:
 print("not Automorphic number")
+26:Checking Whether the Number is Harshad or not 
+n = int(input("Enter a num"))
+x=n
+sum=0
+while n>0:
+r=n%10
+sum=sum+r
+n=n//10
+if(n%sum==0):
+print("Harsad number")
+else:
+printprint("not Harsad number")
+27:Program to check Abundant Number
+def
+
+
+
+
 
 
 
