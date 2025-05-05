@@ -218,8 +218,31 @@ if(n%sum==0):
 print("Harsad number")
 else:
 printprint("not Harsad number")
-27:Program to check Abundant Number
-def
+27:Program to check friendly pairs
+n1=int(input("enter first number:"))
+n2=int(input("enter second number:"))
+def sum_of_divisors(n):
+total=0
+for i in range(1,n+1):
+   if(n%i==0):
+   total=total+i
+abudancy1=sum of divisors/n1
+abudancy2=sum of divisors/n2
+if abudancy1==abundancy2
+print("friendly pairs")
+else:
+print("not friendly pairs")
+28:Check Whether or Not the Number is an Abundant Number
+
+  
+
+
+
+
+
+
+
+
 
 
 
