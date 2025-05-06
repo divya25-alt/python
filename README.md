@@ -233,6 +233,60 @@ print("friendly pairs")
 else:
 print("not friendly pairs")
 28:Check Whether or Not the Number is an Abundant Number
+def get_divisor_sum(n):
+    total = 0
+    for i in range(1, n):
+        if n % i == 0:
+            total += i
+    return total
+def are_friendly_pairs(a, b):
+    sum1 = get_divisor_sum(a)
+    sum2 = get_divisor_sum(b)
+   return (sum1 / a) == (sum2 / b)
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+if are_friendly_pairs(num1, num2):
+    print(f"{num1} and {num2} are Friendly Pairs.")
+else:
+    print(f"{num1} and {num2} are not Friendly Pairs.")
+29:Python program to find HCF of Two Numbers
+def computeHCF(x,y)
+   smaller=0
+if(x<y)
+   smaller=x
+  else:
+  smaller=y
+hcf=0
+for i in range(1,n+1)
+   if(x%i==0) and (y%i==0)
+   hcf=i
+   return hcf
+ n1=12
+ n2=14
+ print("HCF of Two Numbers {} and {} is{}.format(n1,n2, computeHCF(n1,n2))
+30:Find Largest element in an array 
+arr=[4,8,2,7,16,9]
+l=arr[0]
+for i in range(1,len(arr))
+if arr[i]>l
+   l=arr[i]
+   else:
+   continue
+print("largest is",l)
+31:Find Smallest element in an array 
+arr = [4, 8, 2, 7, 16, 9]
+smallest = arr[0] 
+for i in range(1, len(arr)):
+    if arr[i] < smallest:
+        smallest = arr[i]
+print("Smallest element is", smallest)
+32: Smallest and largest element in an array
+
+
+     
+   
+
+
 
   
 
