@@ -281,6 +281,74 @@ for i in range(1, len(arr)):
         smallest = arr[i]
 print("Smallest element is", smallest)
 32: Smallest and largest element in an array
+arr=[4,8,2,7,16,9]
+smallest = arr[0]
+largest = arr[0] 
+for i in range(1, len(arr)):
+  if arr[i] < smallest:
+        smallest = arr[i]
+          if arr[i] <largest:
+        largest = arr[i]
+   print("Smallest element is" smallest)
+   print("largest elsemnet is",largest)
+ 33:Find Second Smallest Element in an Array
+   arr=[4,8,2,7,16,9]
+   if len(arr)<2:
+   print"Array must at least two numbers")
+   for num in arr:
+   if num<smallest:
+   second_smalllest=smallest
+   elif num<second_smallest and num!=smallest
+   second_smalllest=num
+   if second_smallest == float('inf'):
+    print("No second smallest element found (all elements may be equal).")
+    else:
+    print("Second smallest element is:", second_smallest)
+  34:Calculate the sum of elements in an array
+   arr=[32,45,65,80,98]
+    total=0
+  for i in range(len(arr)):
+    total=total+arr[i]
+    print("total sum is",total)
+ 35:Python Code for Reverse an Array suing slicing
+ arr=[12,3,5,8,9]
+ reversed_arr=arr[::-1]
+ print("original array:",arr)
+  print("reversed array:",reversed_arr)
+ 36:Python Program to convert temperature from Celsius to Fahrenheit and Fahrenheit to Celsius.
+ print("choose conversion:")
+ print("1.celsius to fahrenheit")
+ print("2.fahrenheit to celsius")
+ choice=input("Enter 1 or 2:")
+ if choice=='1':
+    c=float(input("Enter temparature in Celsius"))
+    f=(c*9/5)+32
+    print("Temparature  in fahrenheit:",f)
+ elif choice=='2':
+   f=float(input("Enter temparature in fahrenheit"))
+   c=(f-32)+5/9
+   print("Temparature in celsius:",c)
+ else:
+   print("Invalid choice")
+37:
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+
+
+
+   
+       
+   
+
+
+
+
 
 
      
