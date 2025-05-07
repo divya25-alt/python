@@ -397,11 +397,59 @@ print("copied string:",s2)
 text=input("Enter a lowercase string: ")
 uppercase_text=text.upper()
 print("Uppercase string:", uppercase_text)
-47to convert uppercase string to lowercase.
+47:to convert uppercase string to lowercase.
 text=input("Enter a uppercase string: ")
 lowercase_text=text.lower()
 print("lowercase string:", lowercase_text)
-48:
+48:to insert an element in an array at end.
+arr=[1,2,3,4]
+element=5
+arr.append(element)
+print("updated array:",arr)
+49: to insert an element in an array at first.
+arr=[1,2,3,4]
+element=5
+arr.insert(0,element)
+print("updated array:",arr)
+50: to delete an element in an array at end.
+arr=[1,2,3,4]
+arr.pop()
+print("updated array:",arr)
+51: to delete an element in an array at first
+arr=[1,2,3,4]
+arr.pop(0)
+print("updated array:",arr)
+52:to print all unique elements in the array
+arr=[1,2,3,4]
+unique_elements=set(arr)
+print("unique elemnts in the array:",arr)
+53:to Sort first half in ascending order and second half in descending order in an array
+arr = [10, 50, 20, 40, 60, 30, 70, 80]
+mid=len(arry)/2
+first_half=sorted(arr,[:mid])
+second_half=sorted(arr,[mid:]) reverse=True
+result=first_half+second+half
+print("Modified array:",result)
+54: to sort the elements of an array
+arr = [10,50,20,40,60,30]
+arr.sort()
+print("sorted element:",arr)
+55:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
