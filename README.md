@@ -434,7 +434,32 @@ print("Modified array:",result)
 arr = [10,50,20,40,60,30]
 arr.sort()
 print("sorted element:",arr)
-55:
+55:Finding the frequency of element Frequency of elements in an array
+arr = [10,50,20,40,60,30,10,20,40]
+frequency={}
+for elements in arr:
+    if elements in frequency:
+     frequency(elements)=+1
+     else:
+     frequency(element)=1
+print("frequency element:",element)
+56: for sorting elements of an Array by Frequency
+arr = [10,50,20,40,60,30,10,20,40]
+frequency={}
+for elements in arr:
+    if num in frequency:
+     frequency(elements)=+1
+     else:
+     frequency(element)=1
+sorted_arr=sorted(arr,key=lambda,x:frequency[x])
+print("sorted elements by frequency:",sorted_arr)
+57:
+
+
+        
+
+
+
 
 
 
