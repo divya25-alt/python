@@ -330,8 +330,100 @@ for i in range(1, len(arr)):
    print("Temparature in celsius:",c)
  else:
    print("Invalid choice")
-37:
+37 to check whether a character is vowel or consonant.
+ch=input("Enter a single character:").lower()
+if len(ch)==1 and ch.isalpha():
+   if ch is 'aeiou'
+     print(ch,"is vowel")
+   else
+     print(ch,"is constant")
+ else:
+     print("Enter a valid alphabet")
+38:to check whether a character is vowel or consonant or special character.
+ch=input("Enter a single character:").lower()
+if len(ch)==1: 
+    if ch.isalpha():
+       if ch in 'aeiou':
+          print(ch,"is vowel")
+        else
+          print(ch,"is consonant")
+     else
+       print(ch,"is special character")
+else
+       print(" please enter only one character") 
+39:Python Program to print all alphabets from a to z using while loop
+ch='a'
+  while ch<='z':
+      print(ch,end='')
+      ch=ch(ord(chr)+1))
+40:Python Program to print all uppercase alphabets using while loop.
+ch='A'
+  while ch<='Z':
+      print(ch,end='')
+      ch=ch(ord(chr)+1))
+41: to print LCM of two numbers using while loop
+n1=int(input("Enter first number:")
+n2=int(input("Enter second number:")
+if n1>n2:
+  greater=n1
+  else
+  greater=n2
+while True:
+if greater%n1==0 and greater%n2==0
+print("LCM of", num1, "and", num2, "is", greater)
+        break
+    greater +=1
+42:Python Program to print the length of given string.
+s=input("Enter a string:")
+print("length of string is:",len(s))
+43:Python Program to concatenate two strings
+s1=input("Enter first string:")
+s2=input("Enter second string:")
+result=s+s2
+print("concatenated of sting"",result)
+44 to compare two strings.
+s1=input("Enter first string:")
+s2=input("Enter second string:")
+if s1==s2:
+print("strings are equal.")
+else
+print("strings not equal.")
+45.to perform copy of one string to another string.
+s1=input("Enter first string:")
+s2=s1
+print("original sring:",s1)
+print("copied string:",s2)
+46: to convert lowercase string to uppercase.
+text=input("Enter a lowercase string: ")
+uppercase_text=text.upper()
+print("Uppercase string:", uppercase_text)
+47to convert uppercase string to lowercase.
+text=input("Enter a uppercase string: ")
+lowercase_text=text.lower()
+print("lowercase string:", lowercase_text)
+48:
+
+
+
+
+
+
+
+
+
+
+   
  
+
+
+       
+   
+    
+
+
+   
+
+
  
  
  
