@@ -424,7 +424,7 @@ arr=[1,2,3,4]
 unique_elements=set(arr)
 print("unique elemnts in the array:",arr)
 53:to Sort first half in ascending order and second half in descending order in an array
-arr = [10, 50, 20, 40, 60, 30, 70, 80]
+arr = [10,50,20,40,60,30,70,80]
 mid=len(arry)/2
 first_half=sorted(arr,[:mid])
 second_half=sorted(arr,[mid:]) reverse=True
@@ -453,7 +453,47 @@ for elements in arr:
      frequency(element)=1
 sorted_arr=sorted(arr,key=lambda,x:frequency[x])
 print("sorted elements by frequency:",sorted_arr)
-57:
+57:Find the Longest Palindrome in an Array
+def count_distinct_elements(arr)
+    result=len(set(arr)))
+    return result
+numbers=[10,50,20,40,60,30,10,20,40] 
+print("number of distinct elements:", count_distinct_elements(arr))
+58:Finding Repeating elements in an Array
+def find_repeating_element(arr):
+    seen=set()
+    repeats=set()
+    for item in arr:
+        if item in seen:
+           repeats.add(item)
+       else:
+           seen.add(item)
+     return list(repeats)   
+   arr=[10,50,20,40,60,30,10,20,40]
+   print("number of elements:",find_repeating_element(arr))
+59:Removing Duplicates elements from an array
+def remove_duplicates(arr)
+    return list(set(arr))
+arr=[10,50,20,40,60,30,10,20,40]
+print("Remove without duplicates:",remove_duplicates(arr))
+60:finding minimum scalar of two products 
+def min_scalar_product(arr1,arr2):
+    arr1.sort()
+    arr2.sort(return= True)
+    return sum(a*b for a,b zip(arr1,arr2))
+arr1=[1,8,-8]
+arr2=[3,-2,6]
+print("Minimum scalar product:", min_scalar_product(arr1,arr2))
+61:
+    
+   
+    
+
+   
+       
+
+ 
+
 
 
         
