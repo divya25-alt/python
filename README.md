@@ -514,7 +514,20 @@ a=76
 b=2
 gcd=gcd.mat(a,b)
 print("GCD of a and b ",is gcd)
-65:
+65:for Binary To Decimal Conversion
+binary="1011"
+decimal=int(binary,2)
+print("Decimal number:",decimal)
+66:hexadecimal to decimal
+hex_num=input("Enter a hexadecimal number:")
+dec=int(hex_num,16)
+print("decimal number:",decimal)
+67:decimal to binary
+dec=int(input("Enter a dec number:")
+binary=bin(dec)[:2]
+print("Binary number:",binary)
+
+
 
  
        
