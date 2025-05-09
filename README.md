@@ -484,7 +484,46 @@ def min_scalar_product(arr1,arr2):
 arr1=[1,8,-8]
 arr2=[3,-2,6]
 print("Minimum scalar product:", min_scalar_product(arr1,arr2))
-61:
+61:Find non-repeating elements in an array 
+from collections import counter
+arr=[1,1,2,2,3,4,4,4,5,5]
+count=counter(arr)
+non_repeating=(num for num,count in count.items if count==1)
+print("non_repeating)
+62:def max_scalar_product(v1,v2):
+      v1.sort(reverse=True)
+      v2.sort(reverse=True)
+      return sum(a*b for a,b in zip(v1,v2))
+  v1=[2,5,1]
+  v2=[0,7,1]
+  print("Maximum scalar product:",max_scalar_product(v1,v2))
+63:to count numbers of even and odd elements in an array
+arr=[1,2,3,4,5,6,7,8]
+even_count=0
+odd_count=0
+for num in in arr:
+    if num%2==0
+       even_count+=1
+    else:
+       odd_count+=1
+ print("Even numbers:",even_count)
+  print("odd numbers:",odd_count)
+64:GCD of Two Numbers 
+import math
+a=76
+b=2
+gcd=gcd.mat(a,b)
+print("GCD of a and b ",is gcd)
+65:
+
+ 
+       
+ 
+       
+
+
+
+      
     
    
     
