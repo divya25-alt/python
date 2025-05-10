@@ -526,6 +526,54 @@ print("decimal number:",decimal)
 dec=int(input("Enter a dec number:")
 binary=bin(dec)[:2]
 print("Binary number:",binary)
+68: to find out the quadrant in which the given co-ordinate lie
+def find_quadrant(x, y):
+    if x > 0 and y > 0:
+        return "Quadrant I"
+    elif x < 0 and y > 0:
+        return "Quadrant II"
+    elif x < 0 and y < 0:
+        return "Quadrant III"
+    elif x > 0 and y < 0:
+        return "Quadrant IV"
+    elif x == 0 and y == 0:
+        return "Origin"
+    elif x == 0:
+        return "On the Y-axis"
+    elif y == 0:
+        return "On the X-axis"
+x = float(input("Enter the x-coordinate: "))
+y = float(input("Enter the y-coordinate: "))
+print("The point lies in:", find_quadrant(x, y))
+69: for Permutations In Which N People Can Occupy R Seats In A Classroom
+de factorial(num)
+   fact=1
+   for i in range(num,1,-1)
+   fact=fact*i
+p=int(input("Enter number of people:")
+r=int(input("Enter number of seats:")
+p=factorial(n)/factorial(n-r)
+print("total possible arrangements:,"p)
+70:for Finding Maximum Number Of Handshakes
+N=30
+no_of_handshakes=int(N*(N-1)/2)
+print("Max number of handshakes possible for" N, "pepople are:",no_of_handshakes)
+71:Python Program for Addition of two fractions
+num1 = int(input("Enter numerator of first fraction: "))
+den1 = int(input("Enter denominator of first fraction: "))
+num2 = int(input("Enter numerator of second fraction: "))
+den2 = int(input("Enter denominator of second fraction: "))
+f1 = Fraction(num1, den1)
+f2 = Fraction(num2, den2)
+result = f1 + f2
+print("The sum of the two fractions is:", result)
+
+
+
+
+
+
+ 
 
 
 
