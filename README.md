@@ -567,6 +567,19 @@ f1 = Fraction(num1, den1)
 f2 = Fraction(num2, den2)
 result = f1 + f2
 print("The sum of the two fractions is:", result)
+72:Replace all 0’s with 1 in a given integer 
+def replace_zeros_with_ones(n):
+    return int(str(n).replace('0',1)
+number=1011
+result= replace_zeros_with_ones(number) 
+print(result)
+73: Calculate the area of a circle
+def area_of_circle(radius):
+    return math.pi*radius**2
+r=5
+print( f"area of circle with radius {r} is { area_of_circle(r):2f}")
+74:
+
 
 
 
